@@ -139,3 +139,66 @@ h1{
     color: purple;
     font-family: 'Pacifico', cursive;
 }
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 2px solid gray;
+    float: left;
+    width: 390px;
+   margin-left: 60px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.last-task h1{
+  margin-left: 290px;
+}
+.last-task p{
+    margin-left: 240px;
+    margin-right: 280px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.extra h1{
+    margin-left: 450px;
+}
+.extra p{
+    margin-left: 240px;
+    margin-right: 280px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    
+}
+.form-box{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px;
+}
+.form-box input{
+ font-size: 18px;
+ color: black;
+ padding: 15px 10px;
+ /* border: navajowhite;
+ outline: none; */
+ background: black;
+ border-radius: 5px;
+}
+.last{
+    background-image: linear-gradient(rgb(149, 89, 226),rgb(22, 137, 186));
+    padding: 10px  30px;
+     color: white;
+     width: 150px;
+     height: 52px;
+     margin-left: -3px;
+     margin-bottom: -3px;
+     border-radius: 2px;
+}

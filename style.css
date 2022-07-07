@@ -1,25 +1,30 @@
 .upper-part{
-    background-image: url(Images/donation7.jpg);
-    height: 450px;
+    background-image: url(Images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1400px;
+   height: 600px;
     padding-top: 150px;
 }
 h1{
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 140px;
 }
 .Header-part{
     text-align: center;
-    color:rgb(206, 57, 57);
+    color:rgb(226, 215, 253);
 }
 .Header-part p{
-    margin-left: 240px;
-    margin-right: 200px;
-    color:rgb(243, 218, 223);
+    margin-left: 200px;
+    margin-right: 280px;
+    color:rgb(146, 16, 77);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 70px;
 }
 .btn{
-    margin-right:10px;
-    background-image: linear-gradient(rgb(223, 51, 79),tomato);
+    margin-right:100px;
+    background-image: linear-gradient(rgb(149, 89, 226),rgb(22, 137, 186));
     padding: 10px  35px;
     border-radius: 10px;
      color: white;
@@ -27,8 +32,11 @@ h1{
 .middle-part{
     text-align: center;
 }
+.middle-part h1{
+    margin-left: 200px;
+}
 .middle-part p{
-    margin-left: 250px;
+    margin-left: 340px;
     margin-right: 300px;
 
 }
@@ -36,7 +44,7 @@ h1{
     position: relative;
     width: 1000px;
   height:300px;
-  margin-left: 100px;
+  margin-left: 140px;
   margin-bottom: -100px;
 }
 
@@ -87,8 +95,11 @@ h1{
 .last-part {
     text-align: center;
 }
+.last-part h1{
+    margin-left: 140px;
+}
 .last-part p{
-    margin-left: 250px;
+    margin-left: 280px;
     margin-right: 300px;
 }
 .last-box{

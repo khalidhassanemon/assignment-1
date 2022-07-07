@@ -2,7 +2,6 @@
     background-image: url(Images/donation7.jpg);
     height: 450px;
     padding-top: 150px;
-
 }
 h1{
     font-size: 50px;
@@ -35,7 +34,7 @@ h1{
 }
 .container{
     position: relative;
-  width: 1000px;
+    width: 1000px;
   height:300px;
   margin-left: 100px;
   margin-bottom: -100px;
@@ -57,26 +56,25 @@ h1{
     text-align: center;
     font-size: xx-large;
     margin-top: 40px;
-    color: rgb(204, 38, 204);
 }
 .form input{
     outline: none;
-    width: 250px;
+    width: 750px;
     border: none;
     border-bottom: 2px solid rgb(37, 28, 123);
     padding-top: 20px;
-    margin-left: 500px;
+    margin-left: 250px;
     margin-top: -200px;
 }
 .form ::placeholder{
     color: rgb(64, 14, 180);
-    justify-content: center;
+    
     text-align:center;
     margin-top: -100px;
 }
 .container .box:nth-child(2){
-    background: rgb(172, 101, 243);
-    color: rebeccapurple;
+    background: rgb(244, 163, 208);
+    color: rgb(229, 8, 163);
 }
 .second-btn{
     margin-top: 20px;
@@ -85,4 +83,48 @@ h1{
     padding: 10px  35px;
     border-radius: 5px;
      color: white;
+}
+.last-part {
+    text-align: center;
+}
+.last-part p{
+    margin-left: 250px;
+    margin-right: 300px;
+}
+.last-box{
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.first-icon{
+    border:2px solid gray;
+    margin:20px;
+    border-radius: 4px;
+    padding: 8px;
+    background: rgb(173, 215, 188);
+}
+.second-icon{
+    border: 2px solid gray;
+    margin:20px;
+    border-radius: 4px;
+    padding: 8px;
+    background: rgb(225, 194, 199);
+}
+.last-icon{
+    border: 2px solid gray;
+    margin:20px;
+    border-radius: 4px;
+    padding: 8px;
+    background: rgb(222, 202, 206);
+}
+.foter{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.foter h2{
+    color: purple;
+    font-family: 'Pacifico', cursive;
 }
